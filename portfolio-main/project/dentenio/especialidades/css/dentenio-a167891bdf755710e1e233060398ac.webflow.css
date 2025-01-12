@@ -1,0 +1,1630 @@
+:root {
+  --white: white;
+  --black: black;
+  --3bb2b0: lightblue;
+}
+
+.div-block {
+  z-index: -2;
+  background-color: rgba(255, 249, 249, 0);
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: static;
+}
+
+.div-block-2 {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: linear-gradient(#fff, rgba(255, 255, 255, 0));
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  position: absolute;
+}
+
+.image {
+  width: 9%;
+  height: 100vh;
+}
+.nav-link-3:visited {
+  opacity: 1;
+  color: #0b3944;
+  text-decoration: none;
+}
+.div-block-3 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.heading {
+  color: #0b3944;
+  justify-content: center;
+  align-items: center;
+  font-family: Satoshi, sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  display: flex;
+}
+
+.navbar {
+  color: #fff0;
+  background-color: #fff0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left:0px;
+  margin-right:0px;
+  height:60px;
+}
+
+.container {
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  margin-left:0px;
+  margin-right:0px;
+  padding-left:0px;
+  padding-right:0px;
+  height:60px;
+}
+
+.w-nav{
+  width:100%;
+}
+
+.w-nav-link{
+  padding-left:0px;
+  padding-right:0px;
+  margin-left:0px;
+  margin-right:0px;
+
+}
+
+.nav-menu {
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  gap:40px;
+}
+
+.button {
+  background-color: #0b3944;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  font-family: Satoshi, sans-serif;
+  font-weight: 700;
+  display: flex;
+}
+
+.div-block-4 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.button-2 {
+  background-color: #3bb2b0;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  font-family: Satoshi, sans-serif;
+  font-weight: 700;
+  display: flex;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+.button-2:hover {
+  background-color: #145e70;
+}
+
+
+
+.heading-2 {
+  color: #0b3944;
+  border-bottom: 1px solid #0b3944;
+  font-family: Satoshi, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.nav-link, .nav-link-2, .nav-link-3, .nav-link-4, .nav-link-5 {
+  color: #0b3944;
+  font-family: Satoshi, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.div-block-5 {
+  background-image: radial-gradient(circle, #fff, rgba(0, 0, 0, 0) 32%);
+  flex-flow: column;
+  align-items: center;
+  width: 400px;
+  display: flex;
+}
+
+.div-block-6 {
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+}
+
+.section {
+  grid-column-gap: 30px;
+  grid-row-gap: 60px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: top;
+  width: 100%;
+  height: auto;
+  padding: 100px 120px;
+  display: flex;
+  position: static;
+}
+
+.div-block-7 {
+  background-color: rgba(0, 0, 0, 0);
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+  display: flex;
+}
+
+.div-block-8 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px #3bb2b0;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+  display: flex;
+}
+
+.div-block-9, .div-block-10 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px #3bb2b0;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+}
+
+.div-block-11 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: space-between;
+  width: 600px;
+  display: flex;
+}
+
+.image-2 {
+  width: 40%;
+  height: auto;
+}
+
+.image-3, .image-4, .image-5 {
+  width: 50%;
+}
+
+.heading-3, .heading-4 {
+  font-size: 12px;
+}
+
+.heading-5 {
+  font-family: Satoshi, sans-serif;
+}
+
+.heading-6, .heading-7, .heading-8, .heading-9 {
+  color: #0b3944;
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.div-block-12 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+
+.div-block-13 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+
+.div-block-14, .div-block-15 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+.paragraph {
+  color: #0b3944;
+  text-align: left;
+  padding-top: 0px;
+  width: 100%;
+  font-family: Satoshi, sans-serif;
+  font-weight: 400;
+  line-height: 12pt;
+  font-size: 10pt;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.paragraph.b {
+  word-break: normal; /* Change or remove this if not needed */
+  height: auto;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 0px;
+}
+.heading-10 {
+  color: #0b3944;
+  text-align: left;
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.div-block-16 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-16-a {
+  flex-flow: column;
+  justify-content: top;
+  align-items: top;
+  display: flex;
+  gap:20px;
+  width:80%;
+}
+.div-block-16-b {
+  flex-flow: column;
+  justify-content: top;
+  align-items: top;
+  display: flex;
+  gap:20px;
+  width:80%;
+}
+
+.div-block-16-c {
+  flex-flow: column;
+  justify-content: top;
+  align-items: top;
+  display: flex;
+  gap:20px;
+  width:80%;
+}
+
+
+.section-2 {
+  -webkit-text-fill-color: inherit;
+  background-clip: border-box;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding-right: 120px;
+  display: flex;
+  overflow: hidden;
+}
+
+.image-6 {
+  height: 113.544vh;
+}
+
+.div-block-17 {
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .5);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  margin-left: -10%;
+  display: flex;
+  position: relative;
+}
+
+.text-block {
+  color: #0b3944;
+  text-align: center;
+  width: 80%;
+  font-family: Satoshi, sans-serif;
+  line-height: 16px;
+}
+
+.heading-11 {
+  font-size: 12px;
+}
+
+.heading-12 {
+  color: #0b3944;
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.div-block-18 {
+  background-image: url('../images/pexels-cedric-fauntleroy-4269274.jpg');
+  background-position: 0 0;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+
+.section-3 {
+  flex-flow: row-reverse;
+  align-items: center;
+  height: 100vh;
+  padding-left: 120px;
+  display: flex;
+}
+
+.div-block-19 {
+  background-image: url('../images/pexels-shvetsa-3845625.jpg');
+  background-position: 0 0;
+  background-size: cover;
+  width: 80%;
+  height: 80%;
+}
+
+.div-block-20 {
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .5);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  margin-right: -10%;
+  padding-right: 0%;
+  display: flex;
+}
+
+.text-block-2 {
+  color: #0b3944;
+  text-align: center;
+  width: 80%;
+  font-family: Satoshi, sans-serif;
+  line-height: 16px;
+}
+
+.heading-13 {
+  color: #0b3944;
+  text-align: center;
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.section-4 {
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+}
+
+.div-block-21 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.paragraph-2 {
+  color: #0b3944;
+  text-align: center;
+  font-family: Satoshi, sans-serif;
+  font-weight: 500;
+  font-size: 12pt;
+  line-height: 16pt;
+  width: 60%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.heading-14 {
+  color: #0b3944;
+  font-family: Satoshi, sans-serif;
+  font-size: 18px;
+}
+
+.heading-15 {
+  color: #0b3944;
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+}
+
+.section-5 {
+  background-color: #3bb2b0;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px 120px;
+  display: flex;
+  margin-top: 200px;
+  transition: margin-top 1s ease-in-out;
+}
+
+.div-block-22 {
+  justify-content: space-between;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  gap:20px;
+}
+
+
+.div-block-23 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  text-decoration: none;
+  display: flex;
+}
+
+.div-block-24, .div-block-25, .div-block-26 {
+  width: 100%;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+
+
+.div-block-26 {
+  width: 100%;
+}
+
+.heading-16 {
+  flex-flow: row;
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+}
+
+.paragraph-3 {
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.div-block-27 {
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.div-block-28 {
+  justify-content: space-between;
+  display: flex;
+}
+
+.heading-16-copy {
+  flex-flow: row;
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+}
+
+.p {
+  font-family: Satoshi, sans-serif;
+  font-weight: 400;
+}
+
+.heading-17 {
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.heading-18 {
+  font-family: Satoshi, sans-serif;
+}
+
+.heading-19, .heading-20 {
+  font-family: Satoshi, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.paragraph-4 {
+  text-align: center;
+  font-family: Satoshi, sans-serif;
+}
+
+.div-block-30 {
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 70%;
+  display: flex;
+}
+
+.paragraph-5 {
+  color: #0b3944;
+  width: 60%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Satoshi, sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  line-height: 16pt;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+
+.paragraph-5-saibamais{
+  color: #0b3944;
+  width: 60%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Satoshi, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+}
+.heading-21 {
+  color: #0b3944;
+  font-family: Satoshi, sans-serif;
+margin-top:0px;
+margin-bottom:20px;
+line-height:24px;
+  font-size: 16px;
+  font-weight: 900;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.div-block-29 {
+  width: 100%;
+}
+
+.show4{
+  opacity:1;
+  margin-top:0;
+}
+
+.show{
+  opacity: 1;
+}
+
+.w-nav-button{
+  padding:0px;
+}
+@media screen and (max-width: 991px) {
+  .div-block-2 {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .button-2 {
+    width: 125px;
+    height: 40px;
+    font-size: 11px;
+  }
+
+  .section {
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .div-block-7 {
+    width: 200px;
+    height: 100%;
+  }
+
+  .div-block-8, .div-block-9, .div-block-10 {
+    height: 100%;
+  }
+
+  .div-block-11 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .image-2 {
+    width: 35%;
+  }
+
+  .image-3 {
+    width: 30%;
+  }
+
+  .image-4, .image-5 {
+    width: 40%;
+  }
+
+  .heading-6, .heading-7, .heading-8, .heading-9 {
+    font-size: 12px;
+  }
+
+  .div-block-12, .div-block-13 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .div-block-14, .div-block-15 {
+    height: 100%;
+  }
+
+  .paragraph {
+    width: 80%;
+  }
+
+  .paragraph.b {
+    width: 100%;
+  }
+
+  .section-2 {
+    padding-right: 80px;
+  }
+
+  .div-block-17 {
+    margin-left: -50%;
+  }
+
+  .div-block-18 {
+    width: 100%;
+  }
+
+  .section-3 {
+    flex-flow: row-reverse;
+    padding-left: 80px;
+  }
+
+  .div-block-19 {
+    width: 100%;
+    height: 80%;
+  }
+
+  .div-block-20 {
+    height: 200px;
+    margin-right: -50%;
+    padding-right: 0%;
+  }
+
+  .section-4 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .div-block-21 {
+    width: 100%;
+  }
+
+  .paragraph-2 {
+    width: 60%;
+    font-size: 12pt;
+    line-height: 16pt;
+  }
+
+  .section-5 {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .div-block-26 {
+    width: 100%;
+  }
+
+  .div-block-29 {
+    width: 100%;
+  }
+
+  .icon {
+    color: #0b3944;
+  }
+
+  .div-block-30 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-block-2, .section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .section{
+    flex-direction: column;
+    grid-row-gap: 20px;
+  }
+
+  
+.div-block-16-a {
+  flex-flow: column;
+  justify-content: top;
+  align-items: top;
+  display: flex;
+  gap:20px;
+  width:100%;
+}
+.div-block-16-b {
+  flex-flow: column;
+  justify-content: top;
+  align-items: top;
+  display: flex;
+  gap:20px;
+  width:100%;
+}
+
+.div-block-16-c {
+  flex-flow: column;
+  justify-content: top;
+  align-items: top;
+  display: flex;
+  gap:20px;
+  width:100%;
+}
+  .div-block-11 {
+    height: 125px;
+  }
+
+  .heading-6, .heading-7, .heading-8, .heading-9 {
+    font-size: 10px;
+  }
+
+  .paragraph {
+    line-height: 12pt;
+    font-size: 10pt;
+  }
+
+  .section-2 {
+    padding-right: 40px;
+  }
+
+  .text-block {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .heading-12 {
+    font-size: 12px;
+  }
+
+  .div-block-18 {
+    width: 100%;
+  }
+
+  .section-3 {
+    padding-left: 40px;
+  }
+
+  .div-block-19 {
+    background-position: 50%;
+    width: 100%;
+  }
+
+  .text-block-2 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .heading-13 {
+    font-size: 11px;
+  }
+
+  .section-4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .div-block-21 {
+    line-height: 14px;
+  }
+
+  .paragraph-2 {
+    height: 100%;
+    margin-bottom: 0;
+    font-size: 12pt;
+    line-height: 16pt;
+    width:80%;
+  }
+
+  .heading-14 {
+    font-size: 14px;
+  }
+
+  .section-5 {
+    background-color: #3bb2b0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .div-block-30 {
+    height: 60%;
+  }
+
+  .paragraph-5 {
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12pt;
+    line-height: 16pt;
+    display: flex;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heading {
+    text-align: center;
+    width: 80%;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+
+  .div-block-4 {
+    width: 100%;
+  }
+
+  .button-2 {
+    width: 140px;
+    font-size: 9px;
+  }
+
+  .div-block-5 {
+    width: 100%;
+  }
+
+  .section {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div-block-7, .div-block-8, .div-block-9, .div-block-10 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .div-block-11 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-flow: wrap;
+    justify-content: center;
+    height: auto;
+  }
+
+  .heading-6 {
+    text-align: center;
+    line-height: 14px;
+  }
+
+  .heading-7 {
+    line-height: 14px;
+  }
+
+  .heading-8, .heading-9 {
+    text-align: center;
+    line-height: 14px;
+  }
+
+  .paragraph {
+    width: 100%;
+    line-height: 12pt;
+    font-size: 10pt;
+  }
+
+  .heading-10 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .section-2 {
+    padding-right: 20px;
+  }
+
+  .div-block-17 {
+    margin-top: 140px;
+    margin-left: -60%;
+  }
+
+  .section-3 {
+    padding-left: 20px;
+  }
+
+  .div-block-20 {
+    margin-top: 140px;
+    margin-right: -60%;
+  }
+
+  .section-4 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .paragraph-2 {
+    font-size: 12pt;
+    line-height: 16pt;
+    width:100%;
+  }
+
+  .section-5 {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .div-block-22 {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    flex-flow: wrap;
+    height: auto;
+  }
+
+  .div-block-23 {
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .div-block-24, .div-block-25 {
+    width: 40%;
+  }
+
+  .div-block-26 {
+    width: 60%;
+  }
+
+  .paragraph-3 {
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10pt;
+    line-height: 14pt;
+    display: flex;
+  }
+
+  .div-block-27 {
+    height: 45px;
+  }
+
+  .div-block-28 {
+    align-items: center;
+    height: 45px;
+    line-height: 16px;
+  }
+
+  .heading-17 {
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10pt;
+    display: flex;
+  }
+
+  .heading-19 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10pt;
+    display: flex;
+  }
+
+  .heading-20 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10pt;
+  }
+
+  .paragraph-4 {
+    margin-bottom: 0;
+    font-size: 11px;
+  }
+
+  .div-block-29 {
+    width: 100%;
+  }
+
+  .div-block-30 {
+    height: 80%;
+  }
+
+  .paragraph-5 {
+    width: 100%;
+    font-size: 12pt;
+    line-height: 16pt;
+  }
+
+  .paragraph-5-saibamais {
+    width: 100%;
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .div-block-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .section-5 {
+    height: auto;
+    padding: 40px 10px;
+  }
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Chillax';
+  src: url('../fonts/Chillax-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Chillax';
+  src: url('../fonts/Chillax-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-ExtralightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Chillax';
+  src: url('../fonts/Chillax-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Chillax';
+  src: url('../fonts/Chillax-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Bebasneue';
+  src: url('../fonts/BebasNeue-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Generalsans';
+  src: url('../fonts/GeneralSans-Extralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tanker';
+  src: url('../fonts/Tanker-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gambetta';
+  src: url('../fonts/Gambetta-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Chillax';
+  src: url('../fonts/Chillax-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Chillax';
+  src: url('../fonts/Chillax-Extralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Hind';
+  src: url('../fonts/Hind-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Khand';
+  src: url('../fonts/Khand-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Khand';
+  src: url('../fonts/Khand-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Khand';
+  src: url('../fonts/Khand-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Khand';
+  src: url('../fonts/Khand-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Khand';
+  src: url('../fonts/Khand-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-ExtraBold.otf') format('opentype'), url('../fonts/Outfit-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NexaText';
+  src: url('../fonts/NexaTextBlack.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-Bold.otf') format('opentype'), url('../fonts/Nunito-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-BoldItalic.otf') format('opentype'), url('../fonts/Nunito-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-ExtraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
