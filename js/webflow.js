@@ -376,7 +376,7 @@
       thirdproject.style.width="5px";
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 0.2)";
       projectImage.style.background="#EBE43C";
-      link.setAttribute('href', 'https://www.newlink.com');
+      link.setAttribute('href', 'https://rodd.github.io/myportfolio/projects/hovding/index.html');
       /**/
   
       setTimeout(() => {
