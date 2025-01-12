@@ -376,7 +376,7 @@
       thirdproject.style.width="5px";
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 0.2)";
       projectImage.style.background="#EBE43C";
-      link.setAttribute('href', https://roddvoyage.github.io/myportfolio/project/hovdinq/index.html');
+      link.setAttribute('href', 'https://roddvoyage.github.io/myportfolio/project/hovdinq/index.html');
       /**/
   
       setTimeout(() => {
@@ -422,7 +422,7 @@
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 1)";
       projectImage.classList.add('rotate');
       projectImage.style.background="black";
-     link.setAttribute('href', 'https://roddvoyage.github.io/myportfolio/projects/hovding/index.html');
+     link.setAttribute('href', 'https://roddvoyage.github.io/myportfolio/projects/solinca/index.html');
   
       setTimeout(() => {
           brandTitle.innerHTML = "SOLINCA";
