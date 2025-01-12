@@ -422,7 +422,7 @@
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 1)";
       projectImage.classList.add('rotate');
       projectImage.style.background="black";
-      link.setAttribute('href', 'https://www.newlink.com');
+     link.setAttribute('href', 'https://rodd.github.io/myportfolio/projects/hovding/index.html');
   
       setTimeout(() => {
           brandTitle.innerHTML = "SOLINCA";
