@@ -116,14 +116,14 @@
 }
 
 
-.image-2 {
+.image-5 {
   opacity: 1;
   height: 80%;
   cursor:pointer;
   transition: opacity 0.2s ease-in-out;
 }
 
-.image-3, .image-4, .image-5 {
+.image-3, .image-4, .image-2 {
   opacity: .2;
   height: 80%;
   cursor:pointer;
@@ -168,7 +168,7 @@
   flex-flow: wrap;
   justify-content: center;
   width: 840px;
-  display: flex;
+  display: none;
 }
 
 .div-block-14 {
@@ -398,7 +398,7 @@ transition: 0.2s ease-in-out;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 0;
-  display: none;
+  display: flex;
 }
 
 .portefolio-div-block-14 {
@@ -4515,16 +4515,24 @@ justify-content: center;
 
     .portefolio-b {
       margin-bottom: 10px;
-      font-size: 18pt;
+      font-size: 16pt;
     }
     
     .portefolio-c {
-      font-size: 18pt;
+      font-size: 16pt;
     }
     
     .portefolio-a {
       margin-bottom: 10px;
       font-size: 21pt;
+    }
+
+    .portefolio-image-20, .portefolio-image-21 {
+      height: 40%;
+    }
+    
+    .portefolio-image-22, .portefolio-image-23, .portefolio-image-24, .portefolio-image-25 {
+      height: 40%;
     }
     
 
