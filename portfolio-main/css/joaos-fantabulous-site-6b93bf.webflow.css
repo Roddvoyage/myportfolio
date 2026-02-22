@@ -745,8 +745,8 @@ opacity:0;
 .portefolio-div-block-55-a {
   background-color: #fff;
   border-radius: 50%;
-  width: 8px;
-  height: 8px;
+  width: 15px;
+  height: 15px;
   cursor:pointer;
   transition: background 0.2s ease-in-out;
 }
@@ -754,8 +754,8 @@ opacity:0;
 .portefolio-div-block-55-b {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, .2);
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   cursor:pointer;
     transition: background 0.2s ease-in-out;
 }
@@ -763,8 +763,8 @@ opacity:0;
 .portefolio-div-block-55-c {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, .2);
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   cursor:pointer;
     transition: background 0.2s ease-in-out;
 }
